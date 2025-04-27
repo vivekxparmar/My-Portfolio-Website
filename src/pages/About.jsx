@@ -79,7 +79,7 @@ const About = () => {
             <div className="relative">
               <div className="w-48 h-48 sm:w-56 sm:h-56 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 p-1">
                 <img
-                  src="Peters.jpg" // Replace with your image path
+                  src="/Peters.jpg" // Replace with your image path
                   alt="Vivek Parmar"
                   className="w-full h-full rounded-full object-cover border-4 border-white"
                 />
