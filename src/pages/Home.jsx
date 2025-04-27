@@ -218,16 +218,16 @@ const Home = () => {
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-2 py-1 text-xs rounded-full bg-indigo-100 text-indigo-800">
-                    React
+                    HTML
                   </span>
                   <span className="px-2 py-1 text-xs rounded-full bg-indigo-100 text-indigo-800">
-                    Redux
+                    CSS
                   </span>
                   <span className="px-2 py-1 text-xs rounded-full bg-indigo-100 text-indigo-800">
-                    Firebase
+                    SQL
                   </span>
                   <span className="px-2 py-1 text-xs rounded-full bg-indigo-100 text-indigo-800">
-                    Stripe API
+                    PHP
                   </span>
                 </div>
                 <Link

@@ -10,12 +10,12 @@
   ],
   "routes": [
     {
-      "src": "/(.*).(js|css|png|jpg|jpeg|gif|svg|ttf|woff|woff2|eot|json|webp)$",
-      "dest": "/dist/$1.$2"
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/dist/index.html"
+      "dest": "/index.html"
     }
   ]
 }
