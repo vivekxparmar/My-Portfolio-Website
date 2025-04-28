@@ -36,7 +36,6 @@ const Footer = () => {
     <footer className="bg-gradient-to-r from-indigo-600 to-indigo-700 text-white py-12 px-4 md:px-12 lg:px-[210px]">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-[18vw] justify-between">
-          2
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
