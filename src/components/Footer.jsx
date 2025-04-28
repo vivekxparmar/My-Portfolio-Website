@@ -20,7 +20,7 @@ const Footer = () => {
     },
     {
       icon: <FaEnvelope />,
-      href: "mailto:vivek@example.com", // Replace with your email
+      href: "mailto:parmarvivek04102004@gmail.com",
       label: "Email",
     },
   ];
@@ -34,27 +34,25 @@ const Footer = () => {
 
   return (
     <footer className="bg-gradient-to-r from-indigo-600 to-indigo-700 text-white py-12 px-4 md:px-12 lg:px-[210px]">
-  <div className="max-w-7xl mx-auto">
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-[18vw] justify-between">
-
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        viewport={{ once: true }}
-        className="space-y-4 md:justify-self-start"
-      >
-        <h3 className="text-2xl font-bold">Vivek Parmar</h3>
-        <p className="text-indigo-100">
-          Full Stack Developer & IT Engineering Student
-        </p>
-        <p className="text-indigo-100 text-sm">
-          Building digital solutions that make an impact
-        </p>
-      </motion.div>
-
-      {/* Quick Links */}
-      <motion.div
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-[18vw] justify-between">
+          2
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            className="space-y-4 md:justify-self-start"
+          >
+            <h3 className="text-2xl font-bold">Vivek Parmar</h3>
+            <p className="text-indigo-100">
+              Full Stack Developer & IT Engineering Student
+            </p>
+            <p className="text-indigo-100 text-sm">
+              Building digital solutions that make an impact
+            </p>
+          </motion.div>
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
@@ -75,40 +73,36 @@ const Footer = () => {
               ))}
             </ul>
           </motion.div>
-
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.2 }}
-        viewport={{ once: true }}
-        className="space-y-4 md:justify-self-end"
-      >
-        <h4 className="text-lg font-semibold">Connect With Me</h4>
-        <div className="flex space-x-4">
-          {socialLinks.map((social, index) => (
-            <motion.a
-              key={index}
-              href={social.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={social.label}
-              whileHover={{ y: -3 }}
-              className="text-2xl text-white hover:text-indigo-200 transition-colors duration-200"
-            >
-              {social.icon}
-            </motion.a>
-          ))}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="space-y-4 md:justify-self-end"
+          >
+            <h4 className="text-lg font-semibold">Connect With Me</h4>
+            <div className="flex space-x-4">
+              {socialLinks.map((social, index) => (
+                <motion.a
+                  key={index}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={social.label}
+                  whileHover={{ y: -3 }}
+                  className="text-2xl text-white hover:text-indigo-200 transition-colors duration-200"
+                >
+                  {social.icon}
+                </motion.a>
+              ))}
+            </div>
+            <p className="text-indigo-100 text-sm mt-4">
+              Let's collaborate on exciting projects!
+            </p>
+          </motion.div>
         </div>
-        <p className="text-indigo-100 text-sm mt-4">
-          Let's collaborate on exciting projects!
-        </p>
-      </motion.div>
-
-    </div>
-  </div>
-</footer>
-
-
+      </div>
+    </footer>
   );
 };
 
