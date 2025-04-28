@@ -12,9 +12,8 @@ const projects = [
       "MongoDB",
       "Express",
       "Tailwind CSS",
-      "Chart.js",
     ],
-    link: "https://github.com/vivekxparmar/Mental-Wellness-Tracker-App",
+    link: "https://mental-wellness-tracker-app.vercel.app",
     githubLink: "https://github.com/vivekxparmar/Mental-Wellness-Tracker-App",
     image:
       "https://www.healthsource-solutions.com/wp-content/uploads/2024/05/human-brain-growing-from-a-flower-watering-can-web.jpg", // Add your image path
@@ -40,7 +39,7 @@ const projects = [
     title: "Men's Ethnic Wear eCommerce",
     description:
       "A complete eCommerce solution for traditional men's clothing with product catalog, shopping cart, and secure checkout process built with PHP and MySQL.",
-    techStack: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL", "Bootstrap"],
+    techStack: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
     link: "https://github.com/vivekxparmar/Mens-Ethnic-Wear-Website",
     githubLink: "https://github.com/vivekxparmar/Mens-Ethnic-Wear-Website",
     image: "https://southindiafashion.com/wp-content/uploads/2019/11/main.jpg", // Add your image path

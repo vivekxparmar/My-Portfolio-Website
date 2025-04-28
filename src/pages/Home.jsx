@@ -104,18 +104,18 @@ const Home = () => {
             About Me
           </h3>
           <div className="space-y-4 text-gray-600 leading-relaxed">
-            <p className="text-justify">
+            <p>
               I'm currently pursuing my 3rd year in Information Technology at
               GCET College. With a strong foundation in both frontend and
               backend technologies, I'm focused on building full-stack
               applications that deliver real value.
             </p>
-            <p className="text-justify">
+            <p>
               My journey in web development started with curiosity and has grown
               into a passion. I love the challenge of transforming complex
               problems into elegant, user-friendly solutions.
             </p>
-            <p className="text-justify">
+            <p>
               When I'm not coding, you can find me exploring new technologies,
               contributing to open source, or mentoring fellow students in
               programming.

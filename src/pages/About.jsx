@@ -154,7 +154,7 @@ const About = () => {
                     Bachelor of Technology in Information Technology
                   </p>
                   <p className="text-gray-500 mt-2">
-                    Currently in 4th year with focus on web development and
+                    Currently in 3rd year with focus on web development and
                     software engineering
                   </p>
                 </div>
