@@ -16,7 +16,7 @@ const projects = [
     link: "https://mental-wellness-tracker-app.vercel.app",
     githubLink: "https://github.com/vivekxparmar/Mental-Wellness-Tracker-App",
     image:
-      "https://www.healthsource-solutions.com/wp-content/uploads/2024/05/human-brain-growing-from-a-flower-watering-can-web.jpg", // Add your image path
+      "https://images.squarespace-cdn.com/content/v1/5b58b1cef8370aa14856d69c/fa8c868c-77ed-498e-b622-565632cf3841/mentalwellness.jpg", // Add your image path
   },
   {
     title: "Alumni Association Platform",
@@ -33,7 +33,7 @@ const projects = [
     link: "https://github.com/RohitChhipa/Alumni_Association_Plateform",
     githubLink: "https://github.com/RohitChhipa/Alumni_Association_Plateform",
     image:
-      "https://www.thinqloud.com/wp-content/uploads/2020/03/alumni-img-11-1.jpg", // Add your image path
+      "https://www.vaave.com/blog/wp-content/uploads/2024/05/Marketing-Block-Image-18.png", // Add your image path
   },
   {
     title: "Men's Ethnic Wear eCommerce",

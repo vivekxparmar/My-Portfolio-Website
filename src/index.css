@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* Smooth font */
 body {
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif;  */
+  font-family: "Urbanist", sans-serif;
+}
+
+
+.urbanist {
+  font-family: "Urbanist", sans-serif;
+  /* font-optical-sizing: auto; */
+  /* font-weight: <weight>; */
+  /* font-style: normal; */
 }

@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center px-6 md:px-[210px] py-4 shadow-md bg-white fixed top-0 left-0 right-0 z-50 transition-all duration-300">
       <Link to="/">
-        <h1 className="text-2xl font-semibold text-black hover:text-indigo-700 transition-colors cursor-pointer">
+        <h1 className= "urbanist text-2xl font-semibold text-black hover:text-indigo-700 transition-colors cursor-pointer">
           Vivek Parmar
         </h1>
       </Link>

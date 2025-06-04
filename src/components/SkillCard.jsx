@@ -1,27 +1,3 @@
-import {
-  FaReact,
-  FaCss3Alt,
-  FaHtml5,
-  FaGitAlt,
-  FaPhp,
-  FaJava,
-  FaPython,
-  FaDatabase,
-  FaLightbulb,
-  FaPeopleCarry,
-  FaBook,
-} from "react-icons/fa";
-import {
-  SiTailwindcss,
-  SiMongodb,
-  SiExpress,
-  SiCplusplus,
-  SiPostman,
-  SiGithub,
-  SiVercel,
-  SiRender,
-  SiJavascript,
-} from "react-icons/si";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -82,8 +58,9 @@ const SkillCategory = ({ category, skills, delay = 0 }) => {
             }}
             className="flex flex-col items-center bg-white rounded-xl shadow-lg p-6 transform transition-all duration-300 ease-in-out hover:bg-indigo-50 border border-indigo-100"
           >
-            <div className="text-4xl text-indigo-600 mb-3 hover:text-indigo-800 transition-colors duration-300">
-              {skill.icon}
+            <div className="text-4xl mb-3 hover:text-indigo-800 transition-colors duration-300">
+              {/* {skill.icon} */}
+              <img src={skill.src} alt={skill.name} className="w-12 h-12" />
             </div>
             <h4 className="text-md text-gray-800 tracking-wide text-center">
               {skill.name}
@@ -113,39 +90,39 @@ const SkillCard = () => {
   };
 
   const languages = [
-    { name: "C", icon: <SiCplusplus /> },
-    { name: "C++", icon: <SiCplusplus /> },
-    { name: "Java", icon: <FaJava /> },
-    { name: "Python", icon: <FaPython /> },
+    { name: "C", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg", },
+    { name: "C++", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg", },
+    { name: "Java", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg", },
+    { name: "Python", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", },
   ];
 
   const frontend = [
-    { name: "HTML", icon: <FaHtml5 /> },
-    { name: "CSS", icon: <FaCss3Alt /> },
-    { name: "JavaScript", icon: <SiJavascript /> },
-    { name: "React", icon: <FaReact /> },
-    { name: "TailwindCSS", icon: <SiTailwindcss /> },
+    { name: "HTML", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", },
+    { name: "CSS", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", },
+    { name: "JavaScript", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", },
+    { name: "React", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", },
+    { name: "TailwindCSS", src: "https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg", },
   ];
 
   const backend = [
-    { name: "SQL", icon: <FaDatabase /> },
-    { name: "MongoDB", icon: <SiMongodb /> },
-    { name: "Express", icon: <SiExpress /> },
-    { name: "PHP", icon: <FaPhp /> },
+    { name: "SQL", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", },
+    { name: "MongoDB", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg", },
+    { name: "Express", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg", },
+    { name: "PHP", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg", },
   ];
 
   const tools = [
-    { name: "Git", icon: <FaGitAlt /> },
-    { name: "GitHub", icon: <SiGithub /> },
-    { name: "Postman", icon: <SiPostman /> },
-    { name: "Vercel", icon: <SiVercel /> },
-    { name: "Render", icon: <SiRender /> },
+    { name: "Git", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", },
+    { name: "GitHub", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", },
+    { name: "Postman", src: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg", },
+    { name: "Vercel", src: "https://www.svgrepo.com/show/327408/logo-vercel.svg", },
+    { name: "Render", src: "/render.png", },
   ];
 
   const otherSkills = [
-    { name: "Problem Solver", icon: <FaLightbulb /> },
-    { name: "Team Player", icon: <FaPeopleCarry /> },
-    { name: "Continuous Learner", icon: <FaBook /> },
+    { name: "Problem Solver", src: "https://img.icons8.com/fluency/48/light-on--v1.png", },
+    { name: "Team Player", src: "https://img.icons8.com/color/48/teamwork.png", },
+    { name: "Continuous Learner", src: "https://img.icons8.com/fluency/48/open-book--v2.png", },
   ];
 
   return (

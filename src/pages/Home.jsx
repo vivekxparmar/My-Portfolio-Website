@@ -301,7 +301,7 @@ const Home = () => {
               to="/skills"
               className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-full transition-colors duration-200 font-medium"
             >
-              View Full Skills
+              View All Skills
             </Link>
           </div>
         </motion.div>
