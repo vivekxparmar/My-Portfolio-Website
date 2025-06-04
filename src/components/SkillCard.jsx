@@ -90,7 +90,7 @@ const SkillCard = () => {
   };
 
   const languages = [
-    { name: "C", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg", },
+    { name: "C", src: "https://img.icons8.com/?size=512&id=40670&format=png", },
     { name: "C++", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg", },
     { name: "Java", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg", },
     { name: "Python", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", },
