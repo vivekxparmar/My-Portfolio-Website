@@ -6,7 +6,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import SkillCard from "./components/SkillCard";
 import Footer from "./components/Footer";
-import Certifications from "./pages/certifications";
+import Certifications from "./pages/Certifications";
 
 function App() {
   return (
