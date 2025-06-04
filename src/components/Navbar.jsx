@@ -19,7 +19,7 @@ const Navbar = () => {
 
       {/* Desktop Menu */}
       <div className="hidden md:flex items-center space-x-8 text-lg font-medium">
-        {["About", "Projects", "Skills", "Contact"].map((text) => (
+        {["About", "Projects",  "Certifications", "Skills", "Contact"].map((text) => (
           <Link
             key={text}
             to={`/${text.toLowerCase()}`}
@@ -62,7 +62,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-col px-8 py-6 space-y-6 text-lg font-medium">
-          {["About", "Projects", "Skills", "Contact"].map((text) => (
+          {["About", "Projects", "Certifications", "Skills", "Contact"].map((text) => (
             <Link
               key={text}
               to={`/${text.toLowerCase()}`}

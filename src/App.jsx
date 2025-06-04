@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import SkillCard from "./components/SkillCard";
 import Footer from "./components/Footer";
+import Certifications from "./pages/certifications";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/skills" element={<SkillCard />} />
+          <Route path="/certifications" element={<Certifications />} />
         </Routes>
         <Footer />
       </div>
