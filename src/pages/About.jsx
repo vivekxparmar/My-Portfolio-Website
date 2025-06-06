@@ -4,7 +4,7 @@ import { FiBook, FiCode, FiCpu, FiTarget, FiMail } from "react-icons/fi";
 import { FaHandshake } from "react-icons/fa";
 
 const About = () => {
-  // Animation variants
+
   const container = {
     hidden: { opacity: 0 },
     visible: {
@@ -129,7 +129,7 @@ const About = () => {
           </motion.div>
         </div>
 
-        {/* Education Timeline (Optional) */}
+        {/* Education Timeline */}
         <motion.div variants={item} className="mt-20 max-w-4xl mx-auto">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
             My <span className="text-indigo-600">Education</span>

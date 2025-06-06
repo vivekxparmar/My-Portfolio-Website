@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FiDownload, FiMail } from "react-icons/fi";
 
 const Home = () => {
-  // Animation variants
+  
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {

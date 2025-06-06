@@ -3,7 +3,6 @@ import { useState } from 'react';
 const Certifications = () => {
   const [activeCategory, setActiveCategory] = useState('all');
   
-  // Sample data - replace with your actual certificates
   const certificates = [
     {
       id: 1,
@@ -172,7 +171,6 @@ const Certifications = () => {
                   alt={cert.title}
                   className="w-full h-full object-contain"
                 />
-                {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div> */}
                 <div className="absolute bottom-4 left-4">
                   <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-indigo-600 text-white">
                     {cert.institution}

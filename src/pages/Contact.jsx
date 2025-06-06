@@ -24,7 +24,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission, like sending it to an email or API
     alert("Message sent! We will get back to you shortly.");
     setFormData({ name: "", email: "", message: "" });
   };
@@ -73,7 +72,7 @@ const Contact = () => {
         </motion.h1>
 
         <div className="flex flex-col lg:flex-row justify-center gap-12">
-          {/* Left Section - Contact Info */}
+        
           <motion.div
             variants={itemVariants}
             className="w-full lg:w-1/3 space-y-8"
@@ -157,7 +156,7 @@ const Contact = () => {
             </motion.div>
           </motion.div>
 
-          {/* Right Section - Contact Form */}
+          
           <motion.div variants={itemVariants} className="w-full lg:w-2/3">
             <form
               onSubmit={handleSubmit}
