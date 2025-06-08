@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import SkillCard from "./components/SkillCard";
 import Footer from "./components/Footer";
 import Certifications from "./pages/Certifications";
+import Home_Certificates from "./pages/Home_Certificates";
 
 function App() {
   return (
@@ -15,7 +16,15 @@ function App() {
         {" "}
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route
+            path="/"
+            element={
+              <>
+                <Home />
+                <Home_Certificates />
+              </>
+            }
+          />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
