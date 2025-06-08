@@ -29,7 +29,7 @@ const Navbar = () => {
           </Link>
         ))}
         <a
-          href="/Vivek_Resume.pdf"
+          href="/Vivek_Resume_latest.pdf"
           download
           className="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2 rounded-full transition-all duration-300 shadow-md hover:scale-105"
         >
@@ -73,7 +73,7 @@ const Navbar = () => {
             </Link>
           ))}
           <a
-            href="/Vivek_Resume.pdf"
+            href="/Vivek_Resume_latest.pdf"
             download
             onClick={closeMenu}
             className="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2 rounded-full text-center transition-all duration-300 shadow-md hover:scale-105"
