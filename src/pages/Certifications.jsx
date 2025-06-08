@@ -268,7 +268,7 @@ const Certifications = () => {
               <div className="mt-2 text-gray-500 font-medium">Certificates</div>
             </div>
             <div>
-              <div className="text-5xl font-extrabold text-indigo-600">4</div>
+              <div className="text-5xl font-extrabold text-indigo-600">5</div>
               <div className="mt-2 text-gray-500 font-medium">Universities</div>
             </div>
             <div>
