@@ -81,7 +81,7 @@ const Home = () => {
             Contact Me
           </Link>
           <a
-            href="/Vivek_Resume.pdf"
+            href="/Vivek_Resume_latest.pdf"
             download
             className="flex items-center justify-center gap-2 border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white px-6 py-3 rounded-full transition-colors duration-200 font-medium"
           >
